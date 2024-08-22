@@ -475,12 +475,12 @@
 
     /* Sidebar  */
     .sidebar {
-        position: fixed;
+        position:absolute;
         top: 63px;
-        z-index: 999;
+        z-index: 3;
         width: 25%;
         background-color: white;
-        height: 90vh; /* Ensure it covers the full height of the viewport */
+        height: 100vh; /* Ensure it covers the full height of the viewport */
         overflow-y: auto; /* Add vertical scrollbar if content overflows */
         overflow-x: hidden; 
     }
@@ -543,6 +543,15 @@
     }
 
     /* Contant card  */
+    /* .containt {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 8px;
+        background: #e6e6e6;
+        margin-top: 69px;
+        margin-left: 26%;
+    } */
     .containt {
         display: flex;
         justify-content: space-evenly;
@@ -551,7 +560,10 @@
         background: #e6e6e6;
         margin-top: 69px;
         margin-left: 26%;
+        height: calc(100vh - 69px); /* Adjust the height based on your header height */
+        overflow-y: auto; /* Add vertical scrolling */
     }
+    
 
     .product-card {
         background: #ffffff;
@@ -609,4 +621,9 @@
         font-size: 10px;
         font-weight: 400;
     }
+    .about{
+        margin-top: 60px;
+    }
 }
+
+ 
