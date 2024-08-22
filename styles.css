@@ -52,28 +52,33 @@
 .head-drop a {
     color: rgb(128, 128, 128);
 }
-.search-location{
+
+.search-location {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  
+
 }
-.head-drop1{
+
+.head-drop1 {
     padding: 35px !important;
 }
-.head-drop h1{
-font-size: 25px;
-font-weight: 600;
-color: rgb(40, 40, 40);
+
+.head-drop h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(40, 40, 40);
 }
-.search-location{
+
+.search-location {
     display: flex;
     flex-direction: row;
     width: 650px;
     gap: 15px;
 }
-.detect-location h3{
+
+.detect-location h3 {
     font-size: 20px;
     font-weight: 500;
     background-color: rgb(24, 168, 20);
@@ -83,23 +88,27 @@ color: rgb(40, 40, 40);
     cursor: pointer;
 
 }
-.detect-location2 form{
+
+.detect-location2 form {
     border-radius: 8px !important;
 }
-.detect-location1{
+
+.detect-location1 {
     color: rgb(196, 196, 196);
     border: 1px solid rgb(196, 196, 196);
     border-radius: 50%;
 }
-.detect-location1 h3{
+
+.detect-location1 h3 {
     font-size: 13px;
     font-weight: 400;
     text-align: center;
     color: rgb(196, 196, 196);
-    padding: 10px ;
+    padding: 10px;
 }
+
 /* Search  */
-.search{
+.search {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,29 +121,33 @@ color: rgb(40, 40, 40);
     font-size: 17px;
     font-weight: 500;
 }
-.form{
+
+.form {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-       background-color: rgb(240, 240, 240);
+    background-color: rgb(240, 240, 240);
 
 
 
 }
-.form input{
+
+.form input {
     border: none;
     outline: none;
-       background-color: rgb(240, 240, 240);
+    background-color: rgb(240, 240, 240);
 
     color: rgb(128, 128, 128);
     font-size: 17px;
     font-weight: 500;
 }
-.form i{
+
+.form i {
     color: rgb(26, 26, 26);
     font-size: 20px;
 }
+
 /* Head-right  */
 
 .head-right {
@@ -164,11 +177,13 @@ color: rgb(40, 40, 40);
     font-weight: 500;
 
 }
-.cart i{
+
+.cart i {
     font-size: 16px;
     color: white;
 
 }
+
 .cart-logo {
     display: flex;
     align-items: center;
@@ -177,46 +192,164 @@ color: rgb(40, 40, 40);
 
 /* ########################################## Navbar ######################### */
 
-.nav-contant{
+.nav-contant {
     display: flex;
     align-items: center;
     justify-content: center !important;
 }
- .dropdown-menu3{
-   
-        height: 550px !important;
-        overflow: auto;
-    
- }
- .dropdown-menu3 li{
-    border-bottom: 0.5px solid rgba(102, 102, 102, 0.387);
- }
 
- /* Main Section  */
- .Main-Section{
+.dropdown-menu3 {
+
+    height: 550px !important;
+    overflow: auto;
+
+}
+
+.dropdown-menu3 li {
+    border-bottom: 0.5px solid rgba(102, 102, 102, 0.387);
+}
+
+/* Main Section  */
+.Main-Section {
     margin: 0 8%;
     display: flex;
     justify-content: space-between;
     gap: 10px;
     padding: 0 10px;
- }
- .sidebar{
-    box-shadow: -3px 0px 10px rgba(188, 188, 188, 0.5), 3px 0px 10px rgba(188, 188, 188, 0.5);
+}
+
+.sidebar {
+    box-shadow: -1px 0px 6px rgba(188, 188, 188, 0.5), 1px 0px 6px rgba(188, 188, 188, 0.5);
     height: fit-content;
 
- }
- .sidebar ul{
+}
+
+.sidebar ul {
     padding: 0;
- }
- .sidebar li{
+}
+
+.sidebar li {
+    display: flex;
+    justify-content: start;
     list-style: none;
     border-bottom: 0.5px solid rgba(156, 156, 156, 0.51);
     padding: 0 30px;
     align-items: start;
- }
- .sidebar img{
+}
+
+.sidebar img {
     background-color: white;
     width: 62px;
-    padding:0 8px;
- }
-  
+    padding: 0 8px;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Contant %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.filter-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 100%;
+    box-shadow: 0px 1px 6px rgba(172, 171, 171, 0.5);
+
+}
+
+.filter-left {
+    padding: 0 20px;
+}
+
+.filter-left h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Filter-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 10px;
+}
+
+.Filter-right h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Filter-right a {
+    color: rgb(24, 168, 20);
+}
+
+.containt {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: #e6e6e6;
+
+}
+
+.product-card {
+    background: #ffffff;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+.discount h6{
+font-size: 12px;
+font-weight: 600;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0 10px;
+
+}
+.timer{
+    display: flex;
+}
+.timer h6{
+    font-size: 12px;
+    font-weight: 600;
+}
+.card-top img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.card-bottom {
+    padding: 0 10px;
+
+}
+
+.card-bottom h1 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.btn1 {
+    border: 1px solid rgb(189, 189, 189);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.Price-add
+{
+    padding: 6px 0 5px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.price h1{
+    font-size: 13px;
+    font-weight: 600;
+}
+.Price-add button{
+    padding: 1px 6px;
+    border-radius: 4px;
+    background-color: rgba(171, 242, 149, 0.281);
+    border: 1px solid rgb(49 134 22 );
+    font-size: 13px;
+    font-weight: 500;
+}
