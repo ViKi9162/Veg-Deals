@@ -401,8 +401,13 @@
     font-size: 15px;
     font-weight: 600;
 }
-
-
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.summary-web{
+    display: flex;   
+}
 /* Mobile Responsive  */
 @media screen and (max-width:470px) {
     .header-main {
@@ -562,6 +567,7 @@
         margin-left: 26%;
         height: calc(100vh - 69px); /* Adjust the height based on your header height */
         overflow-y: auto; /* Add vertical scrolling */
+        height: 100vh;
     }
     
 
@@ -622,8 +628,29 @@
         font-weight: 400;
     }
     .about{
-        margin-top: 60px;
+        margin-top: 20px;
+    }
+    .foot{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .btn2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: rgb(49 134 22);
+    }
+    .summary-web{
+        display: flex;   
+        flex-direction: column;
+       align-items: end;
     }
 }
+
 
  
