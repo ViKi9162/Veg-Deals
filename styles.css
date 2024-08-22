@@ -302,7 +302,7 @@
 
 .containt {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 10px;
     background: #e6e6e6;
@@ -338,7 +338,7 @@
 }
 
 .card-top img {
-    width: 150px;
+    width: 175px;
     border-radius: 5px;
 }
 
