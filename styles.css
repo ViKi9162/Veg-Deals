@@ -225,12 +225,24 @@
     padding: 0 10px;
 }
 
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
 .sidebar {
     box-shadow: -1px 0px 6px rgba(188, 188, 188, 0.5), 1px 0px 6px rgba(188, 188, 188, 0.5);
-    height: fit-content;
-    
-
+    height: 100vh; /* Full viewport height or adjust as needed */
+    position: sticky;
+    top: 150px;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar if not needed */
 }
+
+/* Hide scrollbar for Firefox */
+.sidebar {
+    scrollbar-width: none; /* For Firefox */
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+.sidebar::-ms-overflow-style: none; /* For Internet Explorer and Edge */
+
 
 .sidebar ul {
     padding: 0;
