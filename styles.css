@@ -340,7 +340,7 @@
 }
 
 .card-top img {
-    width: 150px;
+    width: 170px;
     border-radius: 5px;
 }
 
@@ -510,8 +510,11 @@
         height: 100vh; /* Ensure it covers the full height of the viewport */
         overflow-y: auto; /* Add vertical scrollbar if content overflows */
         overflow-x: hidden; 
-    }
 
+    }
+    .sidebar ul{
+        padding: 0;
+    }
     .sidebar li {
         display: flex;
         align-items: center !important;
