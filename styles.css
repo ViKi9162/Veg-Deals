@@ -353,3 +353,25 @@ font-weight: 600;
     font-size: 13px;
     font-weight: 500;
 }
+/* About-main  */
+.about-main{
+    margin: 10px 10%;
+}
+/* Footer  */
+.text-center{
+    padding: 0 30px;
+}
+.app{
+    display: flex;
+    align-items: center;
+width: fit-content;
+}
+.app h4{
+    font-size: 12px;
+    font-weight: 600;
+
+}
+.app img{
+width: 44px;
+height: 44px;
+}
